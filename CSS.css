@@ -6,7 +6,8 @@ html{
 }
 body{
     background-image: url('pictures/CityPicture.jpg');
-    backdrop-filter: darken;
+    background-color: #777777;
+    background-blend-mode:multiply;
     background-repeat:no-repeat;
     color:white;
 }
@@ -17,13 +18,14 @@ span{
     background-color: rgba(0, 0, 0, 50%);
     width:auto;
     height:100px;
-    margin-top: -10px;
 }
 .navelement{
-    margin: 55px;
+    margin: 50px;
+    line-height: 100px;
     color:white;
     text-decoration:none;
     font-size:28px;
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 .maintext{
@@ -31,5 +33,30 @@ span{
 }
 .titles{
     margin:20px;
-    font-size: 24px;
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.logos{
+    width: 25%;
+}
+#streatfest{
+    position:absolute; TOP:200px; LEFT:25px;
+}
+#dragshow{
+    position:absolute; TOP:200px; LEFT:325px;
+}
+#dragonhacks{
+    position:absolute; TOP:200px; LEFT:625px;
+}
+#whitpain{
+    position:absolute; TOP:325px; LEFT:35px;
+}
+#recruitment{
+    position:absolute; TOP:300px; LEFT:625px;
+}
+#posters{
+    position:absolute; top:600px; left: 20px;
+}
+.posters{
+    width:25%;
 }
