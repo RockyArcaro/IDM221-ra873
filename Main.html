@@ -1,18 +1,32 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <link href="CSS.css" rel="stylesheet" type="text/css">
 </head>
 <header>
-    <nav class="navbar">
-        <a class="navelement" href="Main.html">Home</a>
-        <a class="navelement" href="GraphicDesign.html">Graphic design</a>
-        <a class="navelement" href="UXProjects.html">UX projects</a>
-        <a class="navelement" href="aboutme.html">About me</a>
-    </nav>
+   <!-- <nav class="navbar">
+        <a class="navelement" href="main.html">Home</a>
+        <a class="navelement" href="graphic_design.html">Graphic design</a>
+        <a class="navelement" href="ux_projects.html">UX projects</a>
+        <a class="navelement">About me</a>
+    </nav> -->
 </header>
 <body>
-    <h1 class="maintext"> Rocco Arcaro</h1>
+    <img id="profilepicture" src="Pictures/ProfileMain.JPG">
+    <h1> Rocco Arcaro</h1>
+    <hr class="line">
     <p class="maintext">Second year User Experience and Interaction Design student</p>
+</br>
+<div class="container">
+    <button class="homeflex" onclick="window.location.href = 'graphic_design.html'";>
+    Graphic Design
+    </button>
+    <button class="homeflex" onclick="window.location.href = 'ux_projects.html'";>
+    UX Design
+    </button>
+</div>
+<div class="container">
+    <button class="homeflex" onclick="window.location.href = 'aboutme.html'";>About Me</button>
 </div>
 </body>
 <footer>
