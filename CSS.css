@@ -2,7 +2,7 @@ html{
     --color-dark:#27272a;
     --color-light:#fafafa;
 
-    --font-serf: ;
+    --font-serf: 'Poppins' ;
 }
 @font-face {
     font-family: 'Poppins';
@@ -170,7 +170,7 @@ h1{
     justify-content: center;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-row: auto auto;
+    grid-row:auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
       
