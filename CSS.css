@@ -42,8 +42,6 @@ span{
     flex-direction: row;
     justify-content: center;
     margin-bottom:2em;
-    
-
 }
 .maintext{
     color:white;
@@ -76,9 +74,6 @@ span{
 }
 #recruitment{
     position:absolute; TOP:300px; LEFT:625px;
-}
-#posters{
-
 }
 .posters{
     width:25%;
