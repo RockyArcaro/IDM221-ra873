@@ -8,6 +8,10 @@ html{
     font-family: 'Poppins';
     src: url('fonts/Poppins-Regular.otf'); 
 }
+@font-face {
+    font-family:'Codec' ;
+    src: url('fonts/Codec-Warm-Regular-trial.ttf');
+}
 div{
     font-family: 'Poppins', impact, sans-serif;
 }
@@ -32,13 +36,12 @@ span{
     line-height: 100px;
     color:white;
     text-decoration:none;
-    font-size:28px;
+    font-size:2em;
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1em;
-    margin:1em;
+    margin-bottom:2em;
     
 
 }
@@ -50,8 +53,8 @@ span{
     Margin: 0 8%;
 }
 .titles{
-    margin:20px;
-    font-size: 36px;
+    margin:10px 20px 20px 50px;
+    font-size: 2.5em;
     font-family:'Poppins', Geneva, Tahoma, sans-serif
 }
 .logos{
@@ -120,6 +123,12 @@ h1{
     width:600px;
     height:5px;
 }
+.smallline{
+    background-color: white;
+    width:400px;
+    height:3px;
+    margin-left:25px;
+}
 .logocontainer{
     gap: 3em;
     padding: 2em;
@@ -162,34 +171,36 @@ h1{
     gap: 50px 100px;
 }
 .aboutmecontainer{
-    margin:2em;
-    margin-top: 25%;
-    height:75%;
-    justify-content: center;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row:auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-      
-  }
-  .boxtext{
     background-color:rgba(39, 39, 42, .7);
-    padding:20px;
-    color:#fff;
+    padding:2em;  
+    margin:1em;
     display:flex;
-    align-items:center;
-    justify-content:center;
-    font-family:'Poppins', sans-serif;
-    font-size: 1.5em;
-    width:95%;
+    flex-direction: column;
+    justify-content:end;
+    align-self: flex-end;
+    justify-items: flex-end;
+    margin-top: 625px;
   }
-  .boximage{
-    padding:20px;
-    color:#fff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-family:sans-serif;
-    width:95%;
-  }
+  .aboutmebackground{
+    background:url('pictures/AboutMePicture.jpg') no-repeat;
+    background-size: cover;
+}
+#aboutmetitle{
+    color:#27272a;
+}
+.aboutmetext{
+    font-size:12px;
+    display: inline-block;
+    flex-direction: column;
+    align-content: flex-end;
+    font-family: 'Codec';
+    line-height: 2.5em;
+    text-indent: 10%;
+}
+.aboutmebackwards{
+    transform: rotateX(180deg);
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -40px;
+}
