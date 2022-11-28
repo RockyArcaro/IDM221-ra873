@@ -21,6 +21,7 @@ body{
     background-blend-mode:multiply;
     background-repeat:no-repeat;
     color:white;
+    font-family: 'Poppins-Regular', sans-serif;
 }
 span{
     color:rgb(255, 255, 255)
