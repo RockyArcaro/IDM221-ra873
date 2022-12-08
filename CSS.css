@@ -87,8 +87,13 @@ span{
 #recruitment{
     position:absolute; TOP:300px; LEFT:625px;
 }
-#posters{
-
+.pagetitles{
+    font-size: 5em;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:2em;
 }
 .posters{
     width: 100vw;
@@ -203,7 +208,7 @@ h1{
     justify-content:end;
     align-self: flex-end;
     justify-items: flex-end;
-    margin-top: 625px;
+    margin-top: 825px;
   }
   .aboutmebackground{
     background:url('pictures/AboutMePicture.jpg') no-repeat;
