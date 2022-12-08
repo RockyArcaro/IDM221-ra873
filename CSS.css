@@ -20,6 +20,7 @@ body{
     background-color: #a4a4a4;
     background-blend-mode:multiply;
     background-repeat:no-repeat;
+    background-attachment: fixed;
     color:white;
 }
 span{
@@ -42,7 +43,6 @@ span{
     flex-direction: row;
     justify-content: center;
     margin-bottom:2em;
-    
 
 }
 .maintext{
@@ -58,9 +58,18 @@ span{
     font-family:'Poppins', Geneva, Tahoma, sans-serif
 }
 .logos{
-    width: 25%;
-    height:25%;
+    width: 100vw;
+    margin:2em;
+    display: flex;
+    flex-direction: column;
     align-self: center;
+    justify-items: center;
+}
+.graphicdesigncontainer{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-items: center;
 }
 #streatfest{
     position:absolute; TOP:200px; LEFT:25px;
@@ -77,11 +86,17 @@ span{
 #recruitment{
     position:absolute; TOP:300px; LEFT:625px;
 }
-#posters{
-
+.pagetitles{
+    margin-top: 200px;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .posters{
-    width:25%;
+    width: 100vw;
+    margin:2em 0em;
 }
 #profilepicture{
     width: 50%;
@@ -99,17 +114,18 @@ h1{
 }
 .homeflex{
         column-gap: 1em;
+        margin:0em 0em 1em;
         font-size: 3em;
         background-color: rgba(39, 39, 42, .7);
         height:200px;
-        width:400px;
+        width:100%;
         color:white;
         line-height: 1em;
         padding:2em;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
 }
 .container{
     display: flex;
@@ -125,15 +141,17 @@ h1{
 }
 .smallline{
     background-color: white;
-    width:400px;
+    width:100vw;
     height:3px;
-    margin-left:25px;
 }
 .longline{
     background-color: white;
     width:600px;
     height:3px;
     margin-left:25px;
+}
+.whiteout{
+    background-color: white;
 }
 .logocontainer{
     gap: 3em;
@@ -159,7 +177,7 @@ h1{
     margin-top: -40px;
 }
 .animation{
-    width:70vw;
+    width:100vw;
     margin:2em;
     display:flex;
     flex-direction: row;
@@ -173,8 +191,8 @@ h1{
     justify-content: center;
 }
 .uxprojects{
-    width:40%;
-    margin:2em;
+    width: 100vw;
+    margin: 2em;
 }
 .grid-container {
     display: grid;
@@ -199,7 +217,7 @@ h1{
     color:#27272a;
 }
 .aboutmetext{
-    font-size:12px;
+    font-size:2em;
     display: inline-block;
     flex-direction: column;
     align-content: flex-end;
